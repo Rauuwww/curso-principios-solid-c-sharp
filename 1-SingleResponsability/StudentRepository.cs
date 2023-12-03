@@ -14,10 +14,10 @@ namespace SingleResponsability
 
         private void InitData()
         {
-            storage.Add(new Student(1, "Pepito Pérez", new List<double>() { 3, 4.5 }));
-            storage.Add(new Student(2, "Mariana Lopera", new List<double>() { 4, 5 }));
-            storage.Add(new Student(3, "José Molina", new List<double>() { 2, 3 }));
-            storage.Add(new Student(3, "Raul Rodriguez", new List<double>() { 2, 3 }));
+            storage.Add(new Student(1, "Pepito Pérez", new List<double>() { 3, 5, 4 }));
+            storage.Add(new Student(2, "Mariana Lopera", new List<double>() { 4, 5, 4 }));
+            storage.Add(new Student(3, "José Molina", new List<double>() { 2, 3, 4 }));
+            storage.Add(new Student(3, "Raúl Rodríguez", new List<double>() { 2, 3, 4 }));
         }
 
         public IEnumerable<Student> GetAll() 
