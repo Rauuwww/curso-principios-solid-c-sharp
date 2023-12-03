@@ -1,1 +1,1 @@
-# curso-principios-solid-c-sharp
+# curso principios solid c sharp
